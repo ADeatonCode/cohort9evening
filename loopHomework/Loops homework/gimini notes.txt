@@ -1,0 +1,14 @@
+const countries = ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "ICELAND", "JAPAN", "KENYA"];
+
+    // In above countries array, check if there is a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
+
+let countriesWithIa = countries.filter(country => country.endsWith('ia'));
+
+if(countriesWithIa.length > 0) {
+    console.log (`Countries with 'land' in their names: ${countriesWithIa.map(country => country)}`);
+    console.log(countriesWithIa.length);
+} else {
+    console.log(`There are no countries ending in 'ia'`);
+    console.log(countriesWithIa.length);
+}
+console.log()

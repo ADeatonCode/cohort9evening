@@ -1,0 +1,9 @@
+const myFavoriteFoods = {
+    meat: 'steak',
+    fruit: 'bananas',
+    vegetables: 'okra',
+    myFavoriteMeal:   function() {
+        return `${this.meat} with ${this.vegetables} and ${this.fruit} for desert.`
+    }
+}
+console.log(myFavoriteFoods.myFavoriteMeal());

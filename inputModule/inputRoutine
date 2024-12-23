@@ -1,0 +1,7 @@
+const readline = require('../readline-sync/lib/readline-sync.js');
+
+function readLineSync(prompt) {
+  return readline.question(prompt);
+}
+
+module.exports = readLineSync;

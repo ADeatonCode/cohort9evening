@@ -63,5 +63,8 @@ function generatePassword() {
     }
 
     console.log(password);
+    const codeBox = document.getElementById('codeBox');
+    codeBox.innerHTML =`<p> ${password} </p>`;
     return password;
 }
+

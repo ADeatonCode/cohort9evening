@@ -10,22 +10,18 @@
     </head>
     <body>
         <h1>Password Generator</h1>
-        <div1 id="appBox">
-            <label id="genLbl" for="pswdBox">Generate a Password</label>
-            <br />
-            <hr></hr>
-            <br />
-            <div2 id="pswdBox">
-                <!-- Form and Password will be dynamically added here -->
-                <div3 id="codeBox"></div3>
-            </div2>
-            <br />
+        <div1 class = "genApp" id="appBox">
+            <h2 class = "label" id="pswdBoxLBL">Generate a Password</h2>
             <hr>
-            <br />
+            <div2 class = "genApp" id="pswdBox">
+                <!-- Form and Password will be dynamically added here -->
+                <div3 class = "genApp" id="codeBox">Your Secure Password</div3>
+            </div2>
+            <hr>
             <div4 class="container">
                 <button id="button" onclick="generatePassword()">Generate Password</button>
             </div4>
-        </div1>
+        </div2>
         <script src="pswdGen.js"></script>
     </body>
 </html>

@@ -65,6 +65,7 @@ function generatePassword() {
     console.log(password);
     const codeBox = document.getElementById('codeBox');
     codeBox.innerHTML =`<p> ${password} </p>`;
+    console.log(password.length, password);
     return password;
 }
 

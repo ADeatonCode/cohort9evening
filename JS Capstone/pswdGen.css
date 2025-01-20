@@ -1,58 +1,64 @@
-h1 {
+h1 { 
     text-align: center;
+
 }
+
 div1 {
-    
-    border: 2px solid grey;
-    height: 200px;
-    width: 100%;
-    margin: 0px;
-    padding: 0;    
-    display: flexbox;
-div2 {
-    border: 2px dashed gray;
-    height: 100px;
-    width: 90%;
-    margin: 2px;
-    padding: 2px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    outline: none;
-    align-self: center;
-    justify-content: center;
-
-}
-
-.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
+    width: 97%;
+    height: 300px;
+    border: 5px solid grey; /* The inner border */
+    padding: 5px;
+    margin: 5px;
+
 }
 
-#codeBox {
-    font-family: monospace;
-    font-size: 1.5em;
-    color: #333;
-    padding: 10px;
-    
-    background-color: #f5f5f5;
-    margin-bottom: 20px;
+div2 {
+    height: 100%; /* Fill the parent height */
+    width: 100%; /* Fill the parent width */
+    outline: 2px dashed black;
+    padding: 0 0 20px 0; /* The outer border */
+}
+div3 {
+    width: 100%; /* Fill the parent width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+button {
+    margin-top: 2px;
+    padding: 5px 10px; 
+    background-color: red;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div4 {
+    align-self: center;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: darkred;
 }

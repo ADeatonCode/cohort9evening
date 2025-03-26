@@ -1,0 +1,11 @@
+import react from 'react';
+import reactDOM from 'react-dome
+
+function panicButton() { 
+    
+    return (
+        <button name='panic' id='button'>Panic Button</button>
+    );
+} 
+
+export default panicButton;

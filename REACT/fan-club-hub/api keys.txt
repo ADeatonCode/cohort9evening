@@ -1,0 +1,11 @@
+unsplash
+
+API key:	Q4pZ6yHZJvh40VRj9Dxj2IPQC5tMohcVb34lGOVn-kM
+Secret key:   	5p9PdqCrOXMafWRPoz_cFO5sxGtZC8-uVSCswGo1mEQ
+
+last.fm
+
+API key:	0447213284e7a8e7555d1cd4eb47f2a5
+Secret key:	35716806a88b2cc220cc78118574c959
+
+

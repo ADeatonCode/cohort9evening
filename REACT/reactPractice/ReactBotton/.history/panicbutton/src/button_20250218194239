@@ -1,0 +1,6 @@
+function panicButton() { 
+    
+    return (
+        <button name='panic' id='button'></button>
+    )
+} 

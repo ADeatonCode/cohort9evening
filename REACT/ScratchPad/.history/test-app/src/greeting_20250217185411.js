@@ -1,0 +1,1 @@
+let greeting = new greeting
